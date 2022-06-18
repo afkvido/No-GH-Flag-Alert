@@ -1,0 +1,28 @@
+{
+  "name": "no-gh-flag",
+  "version": "0.1.4",
+  "description": "Automatically closes the unclosable alert that your organization has been flagged.",
+  "main": "build.js",
+  "scripts": {
+    "build": "npm run dev:build1 && npm run dev:build2",
+    "dev:build1": "npx tsc",
+    "dev:build2": "npx webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afkvido/No-GH-Flag-Alert.git"
+  },
+  "author": "gemsvido",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/afkvido/No-GH-Flag-Alert/issues"
+  },
+  "homepage": "https://github.com/afkvido/No-GH-Flag-Alert#readme",
+  "dependencies": {
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}

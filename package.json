@@ -19,5 +19,8 @@
   "homepage": "https://github.com/afkvido/No-GH-Flag-Alert#readme",
   "dependencies": {
     "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
   }
 }

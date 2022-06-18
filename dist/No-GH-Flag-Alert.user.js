@@ -3,9 +3,12 @@
 // @namespace   gemsvido
 // @match       https://github.com/*
 // @grant       none
-// @version     0.2.0
+// @version     0.2.1
 // @author      gemsvidø
 // @description Automatically closes the unclosable alert that your organization has been flagged.
+// @downloadURL https://raw.githubusercontent.com/afkvido/No-GH-Flag-Alert/main/dist/No-GH-Flag-Alert.user.js
+// @updateURL   https://raw.githubusercontent.com/afkvido/No-GH-Flag-Alert/main/dist/No-GH-Flag-Alert.meta.js
+// @icon        https://raw.githubusercontent.com/afkvido/No-GH-Flag-Alert/main/userscript/icon.png
 // ==/UserScript==
 
 // Note that the code is always open source, and never obfuscated or sold.

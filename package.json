@@ -1,6 +1,6 @@
 {
   "name": "no-gh-flag",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Automatically closes the unclosable alert that your organization has been flagged.",
   "scripts": {
     "build": "npm run dev:build1 && npm run dev:build2 && npm run dev:build3",

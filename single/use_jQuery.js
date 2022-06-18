@@ -1,0 +1,1 @@
+"use strict"; /* One line solution */ $(".flash flash-full js-notice flash-error").remove();

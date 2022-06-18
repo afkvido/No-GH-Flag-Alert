@@ -3,9 +3,11 @@
   "version": "0.1.4",
   "description": "Automatically closes the unclosable alert that your organization has been flagged.",
   "scripts": {
-    "build": "npm run dev:build1 && npm run dev:build2",
+    "build": "npm run dev:build1 && npm run dev:build2 && npm run dev:build3",
+
     "dev:build1": "npx tsc",
-    "dev:build2": "npx webpack --config webpack.config.js"
+    "dev:build2": "npx webpack --config webpack.config.js",
+    "dev:build3": "node build.js"
   },
   "repository": {
     "type": "git",

@@ -2,7 +2,6 @@
   "name": "no-gh-flag",
   "version": "0.1.4",
   "description": "Automatically closes the unclosable alert that your organization has been flagged.",
-  "main": "build.js",
   "scripts": {
     "build": "npm run dev:build1 && npm run dev:build2",
     "dev:build1": "npx tsc",
@@ -20,9 +19,5 @@
   "homepage": "https://github.com/afkvido/No-GH-Flag-Alert#readme",
   "dependencies": {
     "typescript": "^4.7.4"
-  },
-  "devDependencies": {
-    "webpack": "^5.73.0",
-    "webpack-cli": "^4.10.0"
   }
 }

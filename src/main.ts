@@ -3,7 +3,7 @@ import { TARGET } from "./constants";
 import { no_jQuery } from "./no_jQuery";
 import { use_jQuery } from "./use_jQuery";
 
-// @ts-expect-error
+
 export function main (args : Array<string>) {
 
 	try {

@@ -23,7 +23,7 @@ function Log (message) {
 Log("Making script...");
 
 
-var Working = new String("");
+var Working = String("");
 
 const meta = fs.readFileSync('./userscript/meta.js', {encoding:'utf8', flag:'r'});
 Working += meta;

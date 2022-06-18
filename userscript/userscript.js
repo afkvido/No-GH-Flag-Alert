@@ -1,4 +1,4 @@
-// This is an OG userscript for archive purposes.
+// This is an OG userscript for archive purposes - not for production
 
 
 
@@ -8,7 +8,7 @@
 // @namespace   gemsvido
 // @match       https://github.com/*
 // @grant       none
-// @version     0.1.4
+// @version     0.2.2
 // @author      gemsvidø
 // @description Automatically closes the unclosable alert that your organization has been flagged.
 // ==/UserScript==
@@ -17,9 +17,9 @@
 
 
 // CONSTANTS
-const ARGS = new Array();
-const PREFIX = new String("[No GitHub flag alert]");
-const TARGET = new String("flash flash-full js-notice flash-error");
+const ARGS = [];
+const PREFIX = String("[No GitHub flag alert]");
+const TARGET = String("flash flash-full js-notice flash-error");
 // CONSTANTS
 
 
